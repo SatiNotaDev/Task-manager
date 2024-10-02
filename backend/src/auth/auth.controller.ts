@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from 'backend/node_modules/@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete } from 'node_modules/@nestjs/common';
 import { AuthService } from './auth.service';
 import { CreateAuthDto } from './dto/create-auth.dto';
 import { UpdateAuthDto } from './dto/update-auth.dto';

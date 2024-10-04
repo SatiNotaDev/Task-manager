@@ -1,12 +1,20 @@
 import { AuthService } from './auth.service';
-import { CreateAuthDto } from './dto/create-auth.dto';
-import { UpdateAuthDto } from './dto/update-auth.dto';
+import { AuthDto } from './dto/auth.dto';
 export declare class AuthController {
     private readonly authService;
     constructor(authService: AuthService);
-    create(createAuthDto: CreateAuthDto): string;
-    findAll(): string;
-    findOne(id: string): string;
-    update(id: string, updateAuthDto: UpdateAuthDto): string;
-    remove(id: string): string;
+    login(dto: AuthDto): Promise<{
+        accessToken: string;
+        refrechToken: string;
+        user: {
+            id: string;
+            created: Date;
+            updateAt: Date;
+            email: string;
+            name: string | null;
+            workInterval: number | null;
+            breakInterval: number | null;
+            intervalCount: number | null;
+        };
+    }>;
 }

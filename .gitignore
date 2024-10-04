@@ -1,0 +1,199 @@
+# Fichiers système généraux
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers IDE et éditeurs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+.project
+.settings/
+
+# Dépendances et paquets
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+yarn.lock
+vendor/
+composer.lock
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de configuration avec des secrets
+.env
+.env.local
+.env.*.local
+config.json
+secrets.yml
+
+# Compilations et distributions
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Fichiers de base de données
+*.sqlite
+*.db
+*.sql
+*.sqlite3
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Node.js
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Objective-C / Swift
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+local.properties
+
+# iOS
+*.ipa
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# WordPress
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/public/hot
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# Fichiers compilés
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives et fichiers compressés
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Fichiers journaux et bases de données
+*.log
+*.sql
+*.sqlite
+
+# Fichiers spécifiques à OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Miniatures
+._*
+
+# Fichiers spécifiques à Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Fichiers spécifiques à Linux
+*~
+.directory
